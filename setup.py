@@ -3,7 +3,7 @@
 # For detail license information, See COPYING
 
 from __future__ import print_function
-
+from setuptools.command.install import install
 import codecs
 import sys
 from distutils.core import Command, setup
